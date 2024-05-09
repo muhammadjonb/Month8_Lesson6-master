@@ -60,12 +60,11 @@ const Countries = () => {
           <option value="oceania">Oceania</option>
         </select>
       </div>
-      <div className="flex flex-wrap gap-16 justify-center border-spacing-1">
+      <div style={{width: "1400px"}} className="flex flex-wrap gap-16 justify-center border-spacing-1">
         {filteredCountries.map((country: any, index) => (
           <div
             key={index}
             className="dark:text-white bg-slate-100 dark:bg-slate-700 rounded-lg outline-none overflow-hidden hover:scale-105 transition duration-500 cursor-pointer object-cover hover:shadow-2xl dark:hover:shadow-slate-600 border-2 dark:border-none w-64 h-96"
-            // style={{ width: "18em", height: "22em" }}
           >
             <div style={{ width: "280px", height: "160px" }}>
               <img
