@@ -84,8 +84,8 @@ const Countries = () => {
               <p className="flex">
                 <p className="font-semibold pr-1">Region:</p> {country.region}
               </p>
-              <p className="flex mb-8">
-                <p className="font-semibold pr-1">Region:</p> {country.capital}
+              <p className="flex mb-8" style={{fontSize: "16px", alignItems: "center"}}>
+                <p style={{fontSize: "20px"}} className="font-semibold pr-1">Region:</p> {country.capital}
               </p>
               <Link href={`/${country.id}`}>
                 <button>Read more</button>
